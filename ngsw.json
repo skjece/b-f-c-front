@@ -1,0 +1,121 @@
+{
+  "configVersion": 1,
+  "timestamp": 1617684606774,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.b6b730cbb20652c89a33.js",
+        "/main-es5.b6b730cbb20652c89a33.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.47a3d41d205fdd2ed79f.js",
+        "/polyfills-es5.19c4161bf9cecc747837.js",
+        "/runtime-es2015.cdfb0ddb511f65fdc0a0.js",
+        "/runtime-es5.cdfb0ddb511f65fdc0a0.js",
+        "/styles.c3f2180e4cd216831712.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/android-launchericon-144-144.png",
+        "/assets/icons/android-launchericon-192-192.png",
+        "/assets/icons/android-launchericon-48-48.png",
+        "/assets/icons/android-launchericon-512-512.png",
+        "/assets/icons/android-launchericon-72-72.png",
+        "/assets/icons/android-launchericon-96-96.png",
+        "/assets/img/banner_shop.png",
+        "/assets/img/error.png",
+        "/assets/img/favicon.png",
+        "/assets/img/momo_banner.jpg",
+        "/assets/img/oops.png",
+        "/assets/img/pizza.svg",
+        "/assets/img/scooter.svg",
+        "/assets/img/shop_icon.png",
+        "/assets/img/success.jpg",
+        "/assets/img/whatsapp_icon.svg",
+        "/assets/mp3/chime-notification-alert_C_major.wav"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api_call_products",
+      "patterns": [
+        "https:\\/\\/delhibazaar\\.store\\/api\\/products\\/\\.[^/]*"
+      ],
+      "strategy": "performance",
+      "maxSize": 500,
+      "maxAge": 86400000,
+      "timeoutMs": 15000,
+      "version": 1
+    },
+    {
+      "name": "api_call_userdata",
+      "patterns": [
+        "https:\\/\\/delhibazaar\\.store\\/api\\/users\\/\\.[^/]*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 3600000,
+      "timeoutMs": 15000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/icons/android-launchericon-144-144.png": "441b6e38ce7ee12b9eca365d98b5e70c2c35181c",
+    "/assets/icons/android-launchericon-192-192.png": "f68d509b2fe89ea6b305c53d3fdf491a7d9c1262",
+    "/assets/icons/android-launchericon-48-48.png": "497d324a7605ebb2299a8f2bb35345cee03ae2f3",
+    "/assets/icons/android-launchericon-512-512.png": "d8d61b22a39262a0ce678f9622e14273342c238a",
+    "/assets/icons/android-launchericon-72-72.png": "b04652263c6e28d3230680089bc391f216d93fb9",
+    "/assets/icons/android-launchericon-96-96.png": "330d94c0fe3e8b2f291b090f50609a2650f0cb22",
+    "/assets/img/banner_shop.png": "1d7ed82febefcde7f8f6acccb7f4cde2372f25f7",
+    "/assets/img/error.png": "f88bb492684990b22e39f2215142789a808f03ef",
+    "/assets/img/favicon.png": "3174e7b4d993530d6a5bf3d978e49647df17ab85",
+    "/assets/img/momo_banner.jpg": "2e3650376bd0a8214a04e0eb2241bd933c66a1d0",
+    "/assets/img/oops.png": "4761ac80fe90cf14c934dc5a921839d7ced61e04",
+    "/assets/img/pizza.svg": "7b686f89948bfa9b894c2b13da45f8c98652a5be",
+    "/assets/img/scooter.svg": "971a2c4b7e324c0f1d9514dd7b360855bdc186cc",
+    "/assets/img/shop_icon.png": "1acd0ad70c41bc59926a22ef07d0781d98d40aa3",
+    "/assets/img/success.jpg": "c469c88047212969bd419620a2a2dd84195ab38e",
+    "/assets/img/whatsapp_icon.svg": "0c8f81523461d4855c92458ca23673558e681a58",
+    "/assets/mp3/chime-notification-alert_C_major.wav": "1b55910a5e1dd3fd448065839fbb8c3bed60342b",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "7ce0a075043f93bb00049e8868da7aa55d1507be",
+    "/main-es2015.b6b730cbb20652c89a33.js": "cac859a874084de69a185c7d18887b52758a9a57",
+    "/main-es5.b6b730cbb20652c89a33.js": "6102974e0f0c2b8bf2a210f17ead7486ed098470",
+    "/manifest.webmanifest": "f861fa693100efde6f9d5b59e6350c52addd23e4",
+    "/polyfills-es2015.47a3d41d205fdd2ed79f.js": "e3db712c4a8ee44cf3f590fceea600c01e6fec43",
+    "/polyfills-es5.19c4161bf9cecc747837.js": "e9549a25c196b3e409409d542d9010538c5f453f",
+    "/runtime-es2015.cdfb0ddb511f65fdc0a0.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.cdfb0ddb511f65fdc0a0.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.c3f2180e4cd216831712.css": "281977d333948d8ad08f7bb9a29d0b9bf9075bc9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

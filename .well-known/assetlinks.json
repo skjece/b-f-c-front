@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.rkeekc",
+      "sha256_cert_fingerprints": ["97:24:07:05:B4:9F:6F:61:4E:24:D9:79:5F:8E:75:CF:BB:08:07:3A:38:49:0A:9B:EE:C4:3C:F4:2E:40:F6:43","80:F9:05:74:D8:43:BE:15:8F:39:14:2B:8E:17:08:69:22:44:1B:11:B6:B3:0F:F5:55:28:7E:52:89:AB:BE:3C"]
+    }
+  }
+]
